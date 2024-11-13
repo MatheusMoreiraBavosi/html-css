@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Vamos criar um link</h1>
+        <a href="https://www.linkedin.com/in/matheusbavosi/"> Acesse meu perfil do Linkedin</a>     
+    <h1>Vamos criar um link com uma tag de âncora <code>hreflang</code></h1>
+        <a href="https://www.w3schools.com/" hreflang="en"> Site da W3Schools (em Inglês)</a>
+    <h1>Criando links com targets</h1>  
+        <h2><code>Target _SELF</code></h2>
+            <a href="https://www.linkedin.com/in/matheusbavosi/" target="_self">Navegue no meu linkedin</a>
+        <h2><code>Target _BLANK</code></h2>
+            <a href="https://www.linkedin.com/in/matheusbavosi/" target="_blank"> Navegue no meu linkedin em uma nova janela</a>
+        <h2><code>Rel</code></h2>
+                <h3>Utilizando o NEXT -> Link Local</h3>
+                    <a href="index02.html" target="_self" rel="next"> ir para o próximo link local</a>
+                <h3>Utilizando o BLANK -> Link externo</h3>
+                    <a href="https://www.linkedin.com/in/matheusbavosi/" target="_blank" rel="external"> Abrir linkedin em uma nova janela</a>
+                <h3>Utilizando o Nofollow no links</h3>    
+                    <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow"> Hostnet</a>
+                <h3>Navegando em links de outra pasta dentro do arquivo</h3>
+                    <a href="Noticias/index03.html" target="_self" rel="next">Página de Noticias</a>
+        <h1>Criando links para Dowloads</h1>
+                <ul>
+                    <li>
+                        <a href="Livro/Declaração para prova Maria Eduarda.pdf" download="Declaração para prova Maria Eduarda.pdf" type="application/pdf" target="_blank"> Baixar o documento em pdf </a>
+                    </li>
+                    <li>
+                        <a href="Livro/Declaração para prova Maria Eduarda.pdf.zip" download="Declaração para prova Maria Eduarda.zip" type="application/zip" target="_blank"> Baixar documento compactado em zip</a>
+                    </li>
+                </ul>  
+</body>
+</html>
