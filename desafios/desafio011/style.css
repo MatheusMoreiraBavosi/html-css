@@ -116,3 +116,32 @@ nav{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.four {
+    font-family: var(--fonte-conteudo);
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.four > p {
+    color: var(--cor02);
+    font-size: 32px;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.five{
+    background-color: var(--cor02);
+    font-family: var(--fonte-conteudo);
+    background-attachment: fixed;
+}
+
+.five> p{
+    color: var(--cor01);
+    font-size: 32px;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
