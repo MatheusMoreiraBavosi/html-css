@@ -109,8 +109,6 @@ nav{
     padding-left: 30px;
     color: var(--cor02);
     font-size: 32px;
-
-   
 }
 
 .third{
@@ -132,14 +130,21 @@ nav{
     background: black url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
     position: relative;
+    padding: 32px;
+    padding-left: 0px;
 }
 
 .four > p {
+    background-color: #37363669;
+    height: 400px;
+    width: 400px;
+    background-size: 50%, 50%;
+    left: 16px;
+    top: 16px;
+    padding: 32px;
+    padding-left: 30px;
     color: var(--cor02);
     font-size: 32px;
-    padding-left: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .five{
