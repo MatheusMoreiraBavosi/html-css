@@ -33,12 +33,12 @@
     --cor01: #000000;
     --cor02: #ffffff;
 
-    --fonte-titulo: "Passion One", sans-serif;
+    --fonte-titulo: "Passion One", sans-serif, Verdana, Geneva, tahoma;
     --fonte-conteudo: "Sriracha", cursive;
 }
 
 body{
-    background-color: var(--cor01);
+    background-color: var(--cor02);
     margin: 0;
     border: 0;
 }
@@ -90,15 +90,25 @@ nav{
 
 .second {
     font-family: var(--fonte-conteudo);
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
     position: relative;
+
 }
 
 .second > p {
+    background-color: #37363669;
+    height: 400px;
+    width: 500px;
+    background-size: 50%, 50%;
+    left: 16px;
+    top: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     color: var(--cor02);
     font-size: 32px;
-    padding-left: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -119,7 +129,7 @@ nav{
 
 .four {
     font-family: var(--fonte-conteudo);
-    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
