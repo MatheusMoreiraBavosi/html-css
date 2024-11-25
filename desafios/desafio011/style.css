@@ -166,3 +166,22 @@ header > p{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--cor01);
+    color: var(--cor02);
+    padding: 8px;
+    margin: auto;
+}
+
+.footer a {
+    color: var(--cor02);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--cor02);
+    text-decoration: underline;
+}
