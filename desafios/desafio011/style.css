@@ -37,134 +37,63 @@
     --fonte-conteudo: "Sriracha", cursive;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: var(--cor02);
-    margin: 0;
-    border: 0;
+    min-height: 100vh;
 }
 
 header{
-    padding: 20px;
-    text-align: center;
     background-color: var(--cor01);
-    background-position: center top;
+    color: var(--cor02);
+    text-align: center;
 }
 
 header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
     font-family: var(--fonte-titulo);
-    font-weight: 700;
-    font-size: 128px;
-    color: var(--cor02);
-    margin-bottom: 20px;
-    margin-top: 20px;
+    font-size: 100px;
 }
 
 header > p{
-    font-family: var(--fonte-titulo);
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--cor02);
-    margin-top: 12px;
-    margin-bottom: 12px;
+    padding-bottom: 50px;
 }
 
-.link{
+a {
     color: var(--cor02);
     text-decoration: none;
+    font-weight: bolder;
 }
 
-.link:hover{
-    color: var(--cor02);
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
-.first{
-    background-color: var(--cor02);
-    font-family: var(--fonte-conteudo);
-    background-attachment: fixed;
-}
-
-.first> p{
-    color: var(--cor01);
-    font-size: 48px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
     padding-left: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.second {
     font-family: var(--fonte-conteudo);
-    background: black url(imagens/background001.jpg) right center no-repeat fixed;
-    background-size: cover;
-    position: relative;
-    padding: 32px;
-    padding-left: 0px;
-    width: 100%;
-
 }
 
-.second > p {
-    background-color: #37363669;
-    height: 400px;
+section.normal{
+    background-color: var(--cor02);
+}
+
+section.imagem {
+  background-color: grey;
+  color: var(--cor02);
+}
+
+section.imagem > p {
     width: 400px;
-    background-size: 50%, 50%;
-    left: 16px;
-    top: 16px;
-    padding: 32px;
-    padding-left: 30px;
-    color: var(--cor02);
-    font-size: auto;
-}
-
-.third{
-    background-color: var(--cor02);
-    font-family: var(--fonte-conteudo);
-    background-attachment: fixed;
-}
-
-.third> p{
-    color: var(--cor01);
-    font-size: 32px;
-    padding-left: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.four {
-    font-family: var(--fonte-conteudo);
-    background: black url(imagens/background002.jpg) right center no-repeat fixed;
-    background-size: cover;
-    position: relative;
-    padding: 32px;
-    padding-left: 0px;
-    width: 100%;
-}
-
-.four > p {
-    background-color: #37363669;
-    height: 400px;
-    width: 400px;
-    background-size: 50%, 50%;
-    left: 16px;
-    top: 16px;
-    padding: 32px;
-    padding-left: 30px;
-    color: var(--cor02);
-    font-size: 32px;
-}
-
-.five{
-    background-color: var(--cor02);
-    font-family: var(--fonte-conteudo);
-    background-attachment: fixed;
-}
-
-.five> p{
-    color: var(--cor01);
-    font-size: 32px;
-    padding-left: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.253);
 }
 
 .footer {
@@ -173,15 +102,4 @@ header > p{
     background-color: var(--cor01);
     color: var(--cor02);
     padding: 8px;
-    margin: auto;
-}
-
-.footer a {
-    color: var(--cor02);
-    text-decoration: none;
-}
-
-.footer a:hover {
-    color: var(--cor02);
-    text-decoration: underline;
 }
