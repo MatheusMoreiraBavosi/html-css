@@ -14,9 +14,18 @@
             border-collapse: collapse;
         }
 
+        caption{
+            padding: 8px;
+            font-size: 1.5em;
+        }
+
         thead, tfoot{
             background-color: black;
             color: white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: grey;
         }
 
         td, th{
@@ -38,6 +47,7 @@
 
     <h1>Uso de tabelas grandes</h1>
     <!--HIERARQUIA DE TABELAS GRANDES
+    CAPTION 
     TABLE   
         THEAD    
             TR, TD, TH
@@ -48,11 +58,12 @@
     -->
 
     <table>
+        <caption>Tabela das Grandes Populações</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>      
+                <th scope="col">Posição</th>
+                <th scope="col">Estado scope</th>
+                <th scope="col">População</th>      
             </tr>
         </thead>
         
@@ -223,8 +234,8 @@
 
         <tfoot>
             <tr>
-                <th>Posicionamento da soma</th>
-                <th>Total de Habitantes</th>
+                <th scope="row">Posicionamento da soma</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
