@@ -12,9 +12,12 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
+            background-color: black;
+            color: white;
             padding: 8px;
             font-size: 1.5em;
         }
@@ -22,6 +25,12 @@
         thead, tfoot{
             background-color: black;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
 
         tbody > tr:nth-child(even) {
@@ -62,7 +71,7 @@
         <thead>
             <tr>
                 <th scope="col">Posição</th>
-                <th scope="col">Estado scope</th>
+                <th scope="col">Estado</th>
                 <th scope="col">População</th>      
             </tr>
         </thead>
