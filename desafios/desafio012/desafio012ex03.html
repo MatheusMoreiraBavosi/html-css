@@ -23,6 +23,10 @@
         background-color: grey;
         color: white;
     }
+
+    .header#media{
+        text-align: left;
+    }
 </style>
 <body>
     <table>
@@ -31,13 +35,13 @@
 
         <tr>
 
-            <th rowspan="2" class="header">Área</th>
+            <th rowspan="2" class="header" scope="col">Área</th>
 
-            <th rowspan="2" class="header">Disciplinas</th>
+            <th rowspan="2" class="header" scope="rowgroup">Disciplinas</th>
 
-            <th colspan="2" class="header">Notas</th>
+            <th colspan="2" class="header" scope="colgroup">Notas</th>
 
-            <th rowspan="2" class="header">Média</th>
+            <th rowspan="2" class="header" scope="colgroup">Média</th>
             
         </tr>
 
@@ -104,7 +108,7 @@
         </tr>
 
         <tr>
-            <th colspan="4" class="header">Média de Exatas</th>
+            <th colspan="4" class="header" id="media">Média de Exatas</th>
 
             <td class="header">0.0</td>
         </tr>
@@ -137,7 +141,7 @@
 
         <tr>
 
-            <th colspan="4" class="header">Média de Humanas</th>
+            <th colspan="4" class="header" id="media">Média de Humanas</th>
 
             <td class="header">0.0</td>
 
