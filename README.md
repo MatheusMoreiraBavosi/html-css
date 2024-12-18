@@ -7,4 +7,10 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <a href ="https://matheusmoreirabavosi.github.io/html-css/desafios/desafio011/desafio011.html" target="_blank">Executar o desafio 011.</a>
 
-<a href ="https://matheusmoreirabavosi.github.io/html-css/desafios/desaio013/desafio011.hmtml" target="_blank">Executar o desafio 013. </a>
+<a href ="https://matheusmoreirabavosi.github.io/html-css/desafios/desaio013/desafio012ex01.hmtml" target="_blank">Executar o desafio 012 ex01. </a>
+
+<a href ="https://matheusmoreirabavosi.github.io/html-css/desafios/desaio013/desafio012ex02.hmtml" target="_blank">Executar o desafio 012 ex02. </a>
+
+<a href ="https://matheusmoreirabavosi.github.io/html-css/desafios/desaio013/desafio012ex03.hmtml" target="_blank">Executar o desafio 012 ex03. </a>
+
+<a href ="https://matheusmoreirabavosi.github.io/html-css/desafios/desaio013/index.hmtml" target="_blank">Executar o desafio 013. </a>
